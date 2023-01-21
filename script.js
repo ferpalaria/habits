@@ -5,9 +5,9 @@ const button = document.querySelector("header button")
 button.addEventListener("click", add)
 
 function add() {
-  const today = "01-13"
+  const today = "01/21"
 
-  const dayExists = nlwSetup.dayExists(today)
+  const dayExists = nlwSetup.dayExists(today) 
 
   if (dayExists) {
     alert("Dia já existe")
@@ -24,5 +24,5 @@ function add() {
 //   food: ["01-08"],
 // }
 
-nlwSetup.setData(data)
-nlwSetup.load()
+// nlwSetup.setData(data)
+// nlwSetup.load()
